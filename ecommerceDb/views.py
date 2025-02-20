@@ -18,6 +18,7 @@ def query2(request):
 
 def query3(request):
     temp = get_customers_who_ordered_laptop()
+    print(temp)
     return HttpResponse(temp)
 
 def add(request):
